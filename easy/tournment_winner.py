@@ -20,5 +20,4 @@ def pick_winner(competitions, results):
 def updateScores(team, point, scores):
     if team not in scores:
         scores[team] = 0
-
     scores[team] += point
